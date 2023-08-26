@@ -1,0 +1,32 @@
+.button {
+  font-family: 'Roboto';
+
+  margin: 5px;
+  color: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+  width: 30em;
+  height: 5em;
+  border-radius: 0.5em;
+  will-change: filter;
+  transition: 300ms;
+
+  background-color: white;
+
+}
+
+.button::after {
+  width: 300px;
+  border-radius: 0.5em;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.button:hover {
+  scale: 1.0;
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.button img {
+  width: 1.8rem;
+  margin-right: 10px;
+}
